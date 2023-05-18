@@ -1,0 +1,18 @@
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.button {
+  margin-right: 5px;
+}
+
+.button:hover,
+.button:focus {
+    border: none;
+    border-radius: 5px;
+  background: #e7e6e6;
+  box-shadow: 5px 5px 7px #e8e8e8, -5px -5px 7px #ffffff;
+}
